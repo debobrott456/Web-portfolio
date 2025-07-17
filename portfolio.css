@@ -2,7 +2,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:0px 200px;
+    margin:0px 100px;
 
 }
 nav ul li{
@@ -11,6 +11,9 @@ nav ul li{
     margin-right:50px;
     font-size: 25px;
 
+}
+li:hover{
+    background-color: coral;
 }
 nav ul{
     display:flex;
@@ -37,6 +40,9 @@ span{
     border-radius: 5px;
     border:none;
 }
+button:hover{
+    background-color: cornflowerblue;
+}
 /* banner styles */
 .banner-greetings{
     font-size: 45px;
@@ -58,9 +64,12 @@ span{
     justify-content: space-between;
     margin:0px 100px 0px 200px;
 }
+.section-bg1{
+    background-color: cadetblue;
+}
 /* Shared style */
 .section-bg{
-    background-color: bisque;
+    background-color:indianred;
 }
 .section-title{
     font-size: 35px;
@@ -88,8 +97,9 @@ main{
 .about{
     border-radius: 10px;
     margin:130px 50px;
-    padding:150px;
+    padding:40px;
     text-align: center;
+    max-height: 550px;
 }
 .about-item{
     margin:30px;
@@ -110,12 +120,14 @@ main{
 .skill-container{
     display:flex;
     
-    gap:24px;
+    gap:10px;
 }
 .skill{
     padding:30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    border-radius: 5px;
+    border-radius: 10px;
+    background-color: indianred;
+    height:300px;
 }
 main section{
     margin-top: 130px;
@@ -133,6 +145,9 @@ main section{
  /* .experience{
  padding:30px;
  } */
+  .resume-column{
+    width:50%;
+  }
   .experience-title{
     font-size: large;
   }
@@ -153,7 +168,7 @@ main section{
     border-radius: 5px;
     padding:15px;
     margin-bottom: 24px;
-    border-radius: 5px;
+    
     border: none;
     display: block;
     width:100%;
@@ -162,3 +177,20 @@ main section{
   textarea{
     height:70px;
   }
+  a{
+    padding:40px;
+    
+  }
+  .link{
+    margin-top: 50px;
+  }
+  p,h3,h4{
+    font-size: large;
+  }
+.card{
+    background-color: #fff;
+}
+ion-icon{
+    color:burlywood;
+    font-size: 40px;
+}
